@@ -1,8 +1,37 @@
-ioc,ioc_type,role,last_observed,state,related_repo,notes
-151.80.76.67:1224,ip_port,historical C2-1224,2026-09,HISTORICAL,Cryptense-E/Jackpot,documented historical Jackpot rotation / public TI
-91.121.235.127:1224,ip_port,historical C2-1224,2026-09,HISTORICAL,Cryptense-E/Jackpot,documented historical Jackpot rotation
-141.94.148.39:1224,ip_port,historical C2-1224,2026-09,HISTORICAL,Cryptense-E/Jackpot,documented historical Jackpot rotation
-54.39.43.114:1224,ip_port,historical C2-1224,2026-09,HISTORICAL,Cryptense-E/Jackpot,documented historical Jackpot rotation
-167.114.215.75:1224,ip_port,historical C2-1224,2026-09,HISTORICAL,Cryptense-E/Jackpot,documented historical Jackpot rotation
-https://a5lab.co/api/settings/linux,url,historical remote-chain stager,2026-09-14,NEUTRALIZED,TarsAI-net/AgentMesh,domain currently parked/neutralized; preserve historical malicious use separately
-172.86.126.227,ipv4,historical C2-808X backend,2026-09-18,HISTORICAL,chainbits13/realfraction,do not conflate with current 172.86.86.84 branch
+indicator,indicator_type,first_seen,last_checked,evidence_state,current_state,related_repo,classification,evidence_ref
+a5lab.co,domain,2026-09-12,2026-09-20,HISTORICAL,REACHABLE,TarsAI-net/AgentMesh,HISTORICAL-LINKED,iocs/recheck-2026-09-20.md
+166.88.134.62,ip,2026-09-18,2026-09-20,HISTORICAL,REACHABLE,public NullReceiver correlation,HISTORICAL-LINKED,evidence/c2/C2-NULLRECEIVER.md
+136.243.22.62:1224,ip_port,2026-09-12,2026-09-20,HISTORICAL,INDETERMINATE_FROM_EGRESS,Cryptense-E/Jackpot ; Cryptense-E/Jackpot; sibling research,HISTORICAL-LINKED,evidence/c2/C2-1224.md
+138.201.128.169:1224,ip_port,2026-09-12,2026-09-20,HISTORICAL,INDETERMINATE_FROM_EGRESS,Cryptense-E/Jackpot ; Cryptense-E/Jackpot; sibling research,HISTORICAL-LINKED,evidence/c2/C2-1224.md
+141.94.148.39:1224,ip_port,2026-09-12,2026-09-20,HISTORICAL,INDETERMINATE_FROM_EGRESS,Cryptense-E/Jackpot ; Cryptense-E/Jackpot; sibling research,HISTORICAL-LINKED,evidence/c2/C2-1224.md
+151.80.76.66:1224,ip_port,2026-09-12,2026-09-20,PROVEN,REACHABLE,Cryptense-E/Jackpot ; Cryptense-E/Jackpot; sibling research,HISTORICAL-LINKED,evidence/c2/C2-1224.md
+151.80.76.67:1224,ip_port,2026-09-12,2026-09-20,HISTORICAL,INDETERMINATE_FROM_EGRESS,Cryptense-E/Jackpot ; Cryptense-E/Jackpot; sibling research,HISTORICAL-LINKED,evidence/c2/C2-1224.md
+167.114.215.75:1224,ip_port,2026-09-12,2026-09-20,HISTORICAL,REACHABLE,Cryptense-E/Jackpot ; Cryptense-E/Jackpot; sibling research,HISTORICAL-LINKED,evidence/c2/C2-1224.md
+172.86.126.227:8085,ip_port,2026-09-17,2026-09-20,PROVEN,INDETERMINATE_FROM_EGRESS,chainbits13/realfraction,HISTORICAL-LINKED,evidence/c2/C2-808X.md
+172.86.126.227:8086,ip_port,2026-09-17,2026-09-20,PROVEN,INDETERMINATE_FROM_EGRESS,chainbits13/realfraction,HISTORICAL-LINKED,evidence/c2/C2-808X.md
+172.86.126.227:8087,ip_port,2026-09-17,2026-09-20,PROVEN,INDETERMINATE_FROM_EGRESS,chainbits13/realfraction,HISTORICAL-LINKED,evidence/c2/C2-808X.md
+54.39.43.114:1224,ip_port,2026-09-12,2026-09-20,HISTORICAL,INDETERMINATE_FROM_EGRESS,Cryptense-E/Jackpot ; Cryptense-E/Jackpot; sibling research,HISTORICAL-LINKED,evidence/c2/C2-1224.md
+91.121.235.127:1224,ip_port,2026-09-12,2026-09-20,HISTORICAL,INDETERMINATE_FROM_EGRESS,Cryptense-E/Jackpot ; Cryptense-E/Jackpot; sibling research,HISTORICAL-LINKED,evidence/c2/C2-1224.md
+http://151.80.76.66:1224/,url,2026-09-15,2026-09-20,PROVEN,REACHABLE,Cryptense-E/Jackpot current embedded C2 historical,HISTORICAL-LINKED,evidence/c2/C2-1224.md
+http://151.80.76.66:1224/api/checkStatus,url,2026-09-12,2026-09-20,PROVEN,HOST_REACHABLE / ROUTE_NOT_CONTACTED,Cryptense-E/Jackpot,HISTORICAL-LINKED,evidence/c2/C2-1224.md
+http://172.86.126.227:8085/,url,2026-09-17,2026-09-20,PROVEN,INDETERMINATE_FROM_EGRESS,chainbits13/realfraction,HISTORICAL-LINKED,evidence/c2/C2-808X.md
+http://172.86.126.227:8085/upload,url,2026-09-17,2026-09-20,PROVEN,INDETERMINATE_FROM_EGRESS,chainbits13/realfraction,HISTORICAL-LINKED,evidence/c2/C2-808X.md
+http://172.86.126.227:8086/,url,2026-09-17,2026-09-20,PROVEN,INDETERMINATE_FROM_EGRESS,chainbits13/realfraction,HISTORICAL-LINKED,evidence/c2/C2-808X.md
+http://172.86.126.227:8086/upload,url,2026-09-17,2026-09-20,PROVEN,INDETERMINATE_FROM_EGRESS,chainbits13/realfraction,HISTORICAL-LINKED,evidence/c2/C2-808X.md
+http://fashdefi.store:6168/defy/v11,url,2026-09-13,2026-09-20,PROVEN,INDETERMINATE_FROM_EGRESS,nicoegiaian/MVP-master,HISTORICAL-LINKED,iocs/recheck-2026-09-20.md
+http://fashdefi.store:6168/defy/v6,url,2026-09-13,2026-09-20,PROVEN,INDETERMINATE_FROM_EGRESS,MADHURANGA-SKP/Demo-project-FVR,HISTORICAL-LINKED,iocs/recheck-2026-09-20.md
+http://fashdefi.store:6168/defy/v7,url,2026-09-13,2026-09-20,HISTORICAL,INDETERMINATE_FROM_EGRESS,historical/sibling source,HISTORICAL-LINKED,iocs/recheck-2026-09-20.md
+https://a5lab.co/api/settings/linux,url,2026-09-12,2026-09-20,HISTORICAL,INDETERMINATE_FROM_EGRESS,TarsAI-net/AgentMesh,HISTORICAL-LINKED,iocs/recheck-2026-09-20.md
+https://a5lab.co/api/settings/mac,url,2026-09-12,2026-09-20,HISTORICAL,INDETERMINATE_FROM_EGRESS,TarsAI-net/AgentMesh,HISTORICAL-LINKED,iocs/recheck-2026-09-20.md
+https://a5lab.co/api/settings/windows,url,2026-09-12,2026-09-20,HISTORICAL,INDETERMINATE_FROM_EGRESS,TarsAI-net/AgentMesh,HISTORICAL-LINKED,iocs/recheck-2026-09-20.md
+https://api.npoint.io/ef2875f70e59e319189d,url,2026-09-17,2026-09-20,PROVEN,REACHABLE,keithjia/realtor,HISTORICAL-LINKED,iocs/recheck-2026-09-20.md
+https://gd.tracelic.com/api/ipcheck-encrypted/606,url,2026-09-13,2026-09-20,PROVEN,INDETERMINATE_FROM_EGRESS,technical-assessment436 cluster; hashgraph-assessment; task-crud ; zulqarnain-mughal/technical-assessment436; ashayk9/technical-assessment436; SebastianBoehler/technical-assessment436; KhalkarYash/hashgraph-assessment; Ozodbekk1/task-crud,HISTORICAL-LINKED,iocs/recheck-2026-09-20.md
+https://gd.tracelic.com/api/ipcheck-encrypted/608,url,2026-09-13,2026-09-20,PROVEN,INDETERMINATE_FROM_EGRESS,unlinked/sibling repo(s),HISTORICAL-LINKED,iocs/recheck-2026-09-20.md
+https://server-victory5.vercel.app/api/ipcheck-encrypted/603_1,url,2026-09-13,2026-09-20,PROVEN,DISABLED BY PROVIDER,syrilj/test_project,HISTORICAL-LINKED,iocs/recheck-2026-09-20.md
+https://smplu.link/apigoogle-linux,url,2026-09-12,2026-09-20,HISTORICAL,REACHABLE,tars-pro/AI-Market ; TarsAI-net/AgentMesh,HISTORICAL-LINKED,iocs/recheck-2026-09-20.md
+https://smplu.link/apigoogle-mac,url,2026-09-12,2026-09-20,HISTORICAL,REACHABLE,tars-pro/AI-Market ; TarsAI-net/AgentMesh,HISTORICAL-LINKED,iocs/recheck-2026-09-20.md
+https://smplu.link/apigoogle-windows,url,2026-09-12,2026-09-20,HISTORICAL,REACHABLE,tars-pro/AI-Market ; TarsAI-net/AgentMesh,HISTORICAL-LINKED,iocs/recheck-2026-09-20.md
+https://vscode-check-mo4-ten.vercel.app/api/settings/linux,url,2026-09-12,2026-09-20,PROVEN,REACHABLE/GATED,Cryptense-E/Jackpot,HISTORICAL-LINKED,iocs/recheck-2026-09-20.md
+https://vscode-check-mo4-ten.vercel.app/api/settings/mac,url,2026-09-12,2026-09-20,PROVEN,REACHABLE/GATED,Cryptense-E/Jackpot,HISTORICAL-LINKED,iocs/recheck-2026-09-20.md
+https://vscode-check-mo4-ten.vercel.app/api/settings/windows,url,2026-09-12,2026-09-20,PROVEN,REACHABLE/GATED,Cryptense-E/Jackpot,HISTORICAL-LINKED,iocs/recheck-2026-09-20.md
+ws://172.86.126.227:8087,url,2026-09-17,2026-09-20,PROVEN,INDETERMINATE_FROM_EGRESS,chainbits13/realfraction,HISTORICAL-LINKED,evidence/c2/C2-808X.md
