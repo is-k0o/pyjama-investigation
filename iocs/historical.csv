@@ -1,0 +1,8 @@
+ioc,ioc_type,role,last_observed,state,related_repo,notes
+151.80.76.67:1224,ip_port,historical C2-1224,2026-09,HISTORICAL,Cryptense-E/Jackpot,documented historical Jackpot rotation / public TI
+91.121.235.127:1224,ip_port,historical C2-1224,2026-09,HISTORICAL,Cryptense-E/Jackpot,documented historical Jackpot rotation
+141.94.148.39:1224,ip_port,historical C2-1224,2026-09,HISTORICAL,Cryptense-E/Jackpot,documented historical Jackpot rotation
+54.39.43.114:1224,ip_port,historical C2-1224,2026-09,HISTORICAL,Cryptense-E/Jackpot,documented historical Jackpot rotation
+167.114.215.75:1224,ip_port,historical C2-1224,2026-09,HISTORICAL,Cryptense-E/Jackpot,documented historical Jackpot rotation
+https://a5lab.co/api/settings/linux,url,historical remote-chain stager,2026-09-14,NEUTRALIZED,TarsAI-net/AgentMesh,domain currently parked/neutralized; preserve historical malicious use separately
+172.86.126.227,ipv4,historical C2-808X backend,2026-09-18,HISTORICAL,chainbits13/realfraction,do not conflate with current 172.86.86.84 branch
