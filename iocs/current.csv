@@ -1,0 +1,24 @@
+ioc,ioc_type,layer,role,last_checked,state,confidence,related_repo,evidence_ref,notes
+http://51.210.52.212:1224/api/checkStatus,url,C2,C2-1224 tasking route,2026-09-17,ACTIVE,PROVEN,TarsAI-net/AgentMesh,evidence/c2/C2-1224.md,Exact GET returned server connected
+https://gamboracle.vercel.app/api,url,MID,MID-HTTP-STAGE,2026-09-15,ACTIVE,PROVEN,anshul-ind/MetaPlay-V2,evidence/c2/C2-1224.md,Served 4827-byte malicious JS stage
+https://ip-vm.vercel.app/api/settings/linux,url,MID,MID-REMOTE-CHAIN stager,2026-09-17,ACTIVE,PROVEN,TarsAI-net/AgentMesh,evidence/c2/C2-1224.md,Linux stager HTTP 200
+https://ipcheck-vm.vercel.app/api,url,MID,env-exfil/RCE endpoint,2026-09-17,REACHABLE/GATED,PROVEN,TarsAI-net/AgentMesh,evidence/c2/C2-1224.md,Minimal synthetic POST returned benign/public JSON
+https://ip-checkout.vercel.app/api/ip-check-encrypted/3aeb34a39,url,MID,MID-HTTP-STAGE,2026-09-18,ACTIVE,PROVEN,RealJDEX/BrickFi,evidence/c2/C2-808X.md,Synthetic exact POST returned large malicious stage
+144.172.110.154,ipv4,C2,C2-808X backend,2026-09-18,ACTIVE,PROVEN,RealJDEX/BrickFi,evidence/c2/C2-808X.md,Source-recovered :8085/:8086/:8087 plus passive service fingerprints
+https://www.configs.live/settings/linux?flag=5,url,MID,MID-REMOTE-CHAIN entry,2026-09-20,ACTIVE,PROVEN,chainbits13/realfraction,evidence/c2/C2-808X.md,Current resurrected chain
+https://configs.live/settings/bootstraplinux?flag=5,url,MID,MID-REMOTE-CHAIN bootstrap,2026-09-20,ACTIVE,PROVEN,chainbits13/realfraction,evidence/c2/C2-808X.md,5771-byte bootstrap
+https://configs.live/settings/env?flag=5,url,MID,MID-REMOTE-CHAIN env loader,2026-09-20,ACTIVE,PROVEN,chainbits13/realfraction,evidence/c2/C2-808X.md,Posts process.env to ipregionchecker
+https://www.ipregionchecker.org/api/ip-check-encrypted/3aeb34a35,url,MID,MID-HTTP-STAGE inside remote chain,2026-09-20,ACTIVE,PROVEN,chainbits13/realfraction,evidence/c2/C2-808X.md,Delivered current 4MB stage
+172.86.86.84,ipv4,C2,C2-808X backend,2026-09-20,UNKNOWN,PROVEN,chainbits13/realfraction,evidence/c2/C2-808X.md,Current stage source-recovered backend; downstream not directly exercised
+https://server-azure-tau.vercel.app/api/ipcheck-encrypted/606,url,MID,MID-HTTP-STAGE error-body delivery,2026-09-20,ACTIVE,PROVEN,rsaw409/DeFi,evidence/c2/C2-808X.md,HTTP 400 body is expected executable stage input
+144.172.107.50,ipv4,C2,C2-808X backend,2026-09-20,REACHABLE/GATED,PROVEN,rsaw409/DeFi,evidence/c2/C2-808X.md,Root-only checks on 8085/8086/8087; no upload/tasking
+0xa322E5f3D311D3080e6f0121063e9aDC2490Ef1a,ethereum_address,MID,MID-ETH-RESOLVER sender,2026-09-20,ACTIVE,PROVEN,VPRoyal/bloxhq,evidence/c2/C2-NULLRECEIVER.md,Latest outbound tx recipient encodes current backend pointer
+166.88.134.75,ipv4,C2,C2-NULLRECEIVER backend pointer,2026-09-20,ACTIVE,PROVEN,VPRoyal/bloxhq,evidence/c2/C2-NULLRECEIVER.md,Current Ethereum pointer; stage routes were live on prior bounded observation
+http://166.88.134.75:443/0x/cls,url,C2,C2-NULLRECEIVER stage route,2026-09-18,ACTIVE,PROVEN,VPRoyal/bloxhq,evidence/c2/C2-NULLRECEIVER.md,HTTP cleartext on TCP 443
+http://166.88.134.75:443/0x/ls,url,C2,C2-NULLRECEIVER boot-loader route,2026-09-18,ACTIVE,PROVEN,VPRoyal/bloxhq,evidence/c2/C2-NULLRECEIVER.md,HTTP cleartext on TCP 443
+http://166.88.134.75:443/0x/clb,url,C2,C2-NULLRECEIVER client stage,2026-09-18,ACTIVE,PROVEN,VPRoyal/bloxhq,evidence/c2/C2-NULLRECEIVER.md,Retrieved and statically decoded only
+http://166.88.134.75:80/$/boot,url,C2,C2-NULLRECEIVER Python bootstrap,2026-09-18,ACTIVE,PROVEN,VPRoyal/bloxhq,evidence/c2/C2-NULLRECEIVER.md,Dynamic per-host route was not fetched
+http://138.226.247.152:80/session/0f2a3fba69d29493,url,C2,C2-NAVA final session endpoint,2026-09-17,ACTIVE,PROVEN,Sabbirnde/Nava,evidence/c2/C2-NAVA.md,Returned 236314-byte final agent
+138.226.247.152,ipv4,C2,C2-NAVA primary backend,2026-09-17,ACTIVE,PROVEN,Sabbirnde/Nava,evidence/c2/C2-NAVA.md,Recovered via multihop blockchain chain
+5.231.107.180:3000,ip_port,C2,C2-NAVA secondary backend,2026-09-18,REACHABLE/GATED,PROVEN,Sabbirnde/Nava,evidence/c2/C2-NAVA.md,TCP open; application routes not exercised
+https://www.jsonkeeper.com/b/3KIH4,url,MID,MID-DEADDROP-JSON,2026-09-20,REACHABLE/GATED,PROVEN,SURUJ404/NFT-GAMEFY,evidence/c2/C2-UNRESOLVED.md,Exact object returned status 404; not an active payload IOC
