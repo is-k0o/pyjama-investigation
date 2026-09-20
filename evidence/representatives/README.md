@@ -14,7 +14,7 @@ Backfill for article-relevant representatives, not every repository in the bound
 | lanmower/coder (VMOBI) | folderOpen | fake asset Node | ETH resolver | NullReceiver lineage | PROVEN static lineage; per-repo liveness UNKNOWN |
 | Sabbirnde/Nava | TRIG-APP-START-IMPORT | LOCAL-JS-NETWORK-LOADER | MID-BLOCKCHAIN-MULTIHOP | C2-NAVA | PROVEN |
 | SURUJ404/NFT-GAMEFY | TRIG-VSCODE-FOLDEROPEN | LOCAL-FAKE-ASSET-NODE | MID-DEADDROP-JSON | unresolved | PROVEN through dead-drop; final UNKNOWN |
-| rony1235/Jp-Soccer | TRIG-NPM-LIFECYCLE | LOCAL-JS-NETWORK-LOADER | unresolved | unresolved | local sink PROVEN; exact C1 UNKNOWN; sibling C1 INFERRED-CANDIDATE |
+| rony1235/Jp-Soccer | TRIG-VSCODE-FOLDEROPEN | LOCAL-JS-NETWORK-LOADER | unresolved | unresolved | top-level folderOpen trigger PROVEN; npm install/start/prepare is a subordinate handoff; local sink PROVEN; exact C1 UNKNOWN; sibling C1 INFERRED-CANDIDATE |
 | upendra512/assessment1_solution | not established | suspicious JS module | unresolved | unresolved | UNKNOWN/incomplete |
 
 ## Anchors
