@@ -1,0 +1,23 @@
+sha256,artifact,layer,related_repo,observed,evidence_ref
+67fa382beeeb4d7969c35d060240da9914662fc273edef670069a8451d53660a,AgentMesh mac stager,MID,TarsAI-net/AgentMesh,2026-09-17,evidence/c2/C2-1224.md
+0ce00ff2d161d42629294b225461efb3edacc36d24688394360e3699ff1c54a6,AgentMesh linux stager,MID,TarsAI-net/AgentMesh,2026-09-17,evidence/c2/C2-1224.md
+490bbef5361fa251606d0978f12ba54f1f829aa9279e72f1e352b515a0df7688,AgentMesh windows stager,MID,TarsAI-net/AgentMesh,2026-09-17,evidence/c2/C2-1224.md
+6f22a6a54896ef8616db07b63e289845ce8f5169a6bb5d393373f94a1bf99a1f,AgentMesh env stage,MID,TarsAI-net/AgentMesh,2026-09-17,evidence/c2/C2-1224.md
+6779b1a7177192afc0fb317d959f3c7659cd36a77dca45e6228d921d6aa9ac78,BrickFi Google Doc raw source,LOCAL,RealJDEX/BrickFi,2026-09-20,evidence/c2/C2-808X.md
+cbac948ca516ffb7fa027242325ed6c57bbea8e38ebe80faee80d46c4a83b555,BrickFi Google Doc decoded stage,LOCAL,RealJDEX/BrickFi,2026-09-20,evidence/c2/C2-808X.md
+ca42dfca8d1d9deb17899e4bd3b3ff50c39565f42c0bdda38678fa2849c836fc,BrickFi delivered obfuscated stage,MID,RealJDEX/BrickFi,2026-09-18,evidence/c2/C2-808X.md
+6316b9c3c7f75676158e99aaa0355999b974a7d745647f646b20c74a81cc3928,realfraction configs.live linux stager,MID,chainbits13/realfraction,2026-09-20,evidence/c2/C2-808X.md
+67710ff1a7651779949f0096a05b8582bc641efa1cd198be9a4908245c81f274,realfraction bootstraplinux,MID,chainbits13/realfraction,2026-09-20,evidence/c2/C2-808X.md
+20d51cbfc5810047daf2784c58a699eb3d5801446a8b2ca2816be7373ba9bc20,realfraction env-setup.js,MID,chainbits13/realfraction,2026-09-20,evidence/c2/C2-808X.md
+46d6b13d67007d89dc808b0074e997fed90960294c10f0162a1702c4b5e52013,realfraction current delivered stage,MID,chainbits13/realfraction,2026-09-20,evidence/c2/C2-808X.md
+f59660edb38aaabbac359316137124ba29bba23b5f45f7d63a492a3d7d145e96,rsaw raw error-body stage,MID,rsaw409/DeFi,2026-09-20,evidence/c2/C2-808X.md
+6bc870593f447c7727b487c2d382636d4699afffe67fa6a2075f78117ad15f6b,NullReceiver raw /0x/cls,C2,VPRoyal/bloxhq,2026-09-18,evidence/c2/C2-NULLRECEIVER.md
+affbbe7b899a60541365224a99ff0d51dff83bd2999a0041bc8d125d1742b0d2,NullReceiver raw /0x/ls,C2,VPRoyal/bloxhq,2026-09-18,evidence/c2/C2-NULLRECEIVER.md
+0d9aeb88d5c4f141f980f880ebc1bdaf9408f11200a88de1f8d82d704665d298,NullReceiver raw /0x/clb,C2,VPRoyal/bloxhq,2026-09-18,evidence/c2/C2-NULLRECEIVER.md
+41cb56f3b8e2df7c61b671813317aa277f59bbfb374cfddd483d22eec44723ff,NullReceiver decoded /0x/clb,C2,VPRoyal/bloxhq,2026-09-18,evidence/c2/C2-NULLRECEIVER.md
+16cd50e50aa56797f356d60af7c7db3bf4ab923d0a7271c639796bb4add782d0,NullReceiver raw /$/boot,C2,VPRoyal/bloxhq,2026-09-18,evidence/c2/C2-NULLRECEIVER.md
+ab8a54f50bbda7eb2156941ef99a801158794a787bd9d78bbe6cf6822e53fd1a,NullReceiver XOR-decoded boot,C2,VPRoyal/bloxhq,2026-09-18,evidence/c2/C2-NULLRECEIVER.md
+195362265d3dfce1b669bbbb40f9ab385ccbde57012ec91871dd2e59d1b3a1e4,Nava JSONKeeper response,MID,Sabbirnde/Nava,2026-09-17,evidence/c2/C2-NAVA.md
+e60070ad02ab8f21e6f018c836a55e37901cf14b8ea8be1d2f8d117ce803235f,Nava final 236314-byte agent,C2,Sabbirnde/Nava,2026-09-17,evidence/c2/C2-NAVA.md
+e22605a2363c05991146e2b7761be9077586ff5b61a7248c950b6e0e751cc958,Nava sessions field,C2,Sabbirnde/Nava,2026-09-17,evidence/c2/C2-NAVA.md
+67795bf3846287322b92aee164b5745a75b6835d1fbefdcb0361745ec47cdf26,SURUJ 3KIH4 status-404 body,MID,SURUJ404/NFT-GAMEFY,2026-09-20,evidence/c2/C2-UNRESOLVED.md
