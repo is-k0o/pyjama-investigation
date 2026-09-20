@@ -1,24 +1,111 @@
-ioc,ioc_type,layer,role,last_checked,state,confidence,related_repo,evidence_ref,notes
-http://51.210.52.212:1224/api/checkStatus,url,C2,C2-1224 tasking route,2026-09-17,ACTIVE,PROVEN,TarsAI-net/AgentMesh,evidence/c2/C2-1224.md,Exact GET returned server connected
-https://gamboracle.vercel.app/api,url,MID,MID-HTTP-STAGE,2026-09-15,ACTIVE,PROVEN,anshul-ind/MetaPlay-V2,evidence/c2/C2-1224.md,Served 4827-byte malicious JS stage
-https://ip-vm.vercel.app/api/settings/linux,url,MID,MID-REMOTE-CHAIN stager,2026-09-17,ACTIVE,PROVEN,TarsAI-net/AgentMesh,evidence/c2/C2-1224.md,Linux stager HTTP 200
-https://ipcheck-vm.vercel.app/api,url,MID,env-exfil/RCE endpoint,2026-09-17,REACHABLE/GATED,PROVEN,TarsAI-net/AgentMesh,evidence/c2/C2-1224.md,Minimal synthetic POST returned benign/public JSON
-https://ip-checkout.vercel.app/api/ip-check-encrypted/3aeb34a39,url,MID,MID-HTTP-STAGE,2026-09-18,ACTIVE,PROVEN,RealJDEX/BrickFi,evidence/c2/C2-808X.md,Synthetic exact POST returned large malicious stage
-144.172.110.154,ipv4,C2,C2-808X backend,2026-09-18,ACTIVE,PROVEN,RealJDEX/BrickFi,evidence/c2/C2-808X.md,Source-recovered :8085/:8086/:8087 plus passive service fingerprints
-https://www.configs.live/settings/linux?flag=5,url,MID,MID-REMOTE-CHAIN entry,2026-09-20,ACTIVE,PROVEN,chainbits13/realfraction,evidence/c2/C2-808X.md,Current resurrected chain
-https://configs.live/settings/bootstraplinux?flag=5,url,MID,MID-REMOTE-CHAIN bootstrap,2026-09-20,ACTIVE,PROVEN,chainbits13/realfraction,evidence/c2/C2-808X.md,5771-byte bootstrap
-https://configs.live/settings/env?flag=5,url,MID,MID-REMOTE-CHAIN env loader,2026-09-20,ACTIVE,PROVEN,chainbits13/realfraction,evidence/c2/C2-808X.md,Posts process.env to ipregionchecker
-https://www.ipregionchecker.org/api/ip-check-encrypted/3aeb34a35,url,MID,MID-HTTP-STAGE inside remote chain,2026-09-20,ACTIVE,PROVEN,chainbits13/realfraction,evidence/c2/C2-808X.md,Delivered current 4MB stage
-172.86.86.84,ipv4,C2,C2-808X backend,2026-09-20,UNKNOWN,PROVEN,chainbits13/realfraction,evidence/c2/C2-808X.md,Current stage source-recovered backend; downstream not directly exercised
-https://server-azure-tau.vercel.app/api/ipcheck-encrypted/606,url,MID,MID-HTTP-STAGE error-body delivery,2026-09-20,ACTIVE,PROVEN,rsaw409/DeFi,evidence/c2/C2-808X.md,HTTP 400 body is expected executable stage input
-144.172.107.50,ipv4,C2,C2-808X backend,2026-09-20,REACHABLE/GATED,PROVEN,rsaw409/DeFi,evidence/c2/C2-808X.md,Root-only checks on 8085/8086/8087; no upload/tasking
-0xa322E5f3D311D3080e6f0121063e9aDC2490Ef1a,ethereum_address,MID,MID-ETH-RESOLVER sender,2026-09-20,ACTIVE,PROVEN,VPRoyal/bloxhq,evidence/c2/C2-NULLRECEIVER.md,Latest outbound tx recipient encodes current backend pointer
-166.88.134.75,ipv4,C2,C2-NULLRECEIVER backend pointer,2026-09-20,ACTIVE,PROVEN,VPRoyal/bloxhq,evidence/c2/C2-NULLRECEIVER.md,Current Ethereum pointer; stage routes were live on prior bounded observation
-http://166.88.134.75:443/0x/cls,url,C2,C2-NULLRECEIVER stage route,2026-09-18,ACTIVE,PROVEN,VPRoyal/bloxhq,evidence/c2/C2-NULLRECEIVER.md,HTTP cleartext on TCP 443
-http://166.88.134.75:443/0x/ls,url,C2,C2-NULLRECEIVER boot-loader route,2026-09-18,ACTIVE,PROVEN,VPRoyal/bloxhq,evidence/c2/C2-NULLRECEIVER.md,HTTP cleartext on TCP 443
-http://166.88.134.75:443/0x/clb,url,C2,C2-NULLRECEIVER client stage,2026-09-18,ACTIVE,PROVEN,VPRoyal/bloxhq,evidence/c2/C2-NULLRECEIVER.md,Retrieved and statically decoded only
-http://166.88.134.75:80/$/boot,url,C2,C2-NULLRECEIVER Python bootstrap,2026-09-18,ACTIVE,PROVEN,VPRoyal/bloxhq,evidence/c2/C2-NULLRECEIVER.md,Dynamic per-host route was not fetched
-http://138.226.247.152:80/session/0f2a3fba69d29493,url,C2,C2-NAVA final session endpoint,2026-09-17,ACTIVE,PROVEN,Sabbirnde/Nava,evidence/c2/C2-NAVA.md,Returned 236314-byte final agent
-138.226.247.152,ipv4,C2,C2-NAVA primary backend,2026-09-17,ACTIVE,PROVEN,Sabbirnde/Nava,evidence/c2/C2-NAVA.md,Recovered via multihop blockchain chain
-5.231.107.180:3000,ip_port,C2,C2-NAVA secondary backend,2026-09-18,REACHABLE/GATED,PROVEN,Sabbirnde/Nava,evidence/c2/C2-NAVA.md,TCP open; application routes not exercised
-https://www.jsonkeeper.com/b/3KIH4,url,MID,MID-DEADDROP-JSON,2026-09-20,REACHABLE/GATED,PROVEN,SURUJ404/NFT-GAMEFY,evidence/c2/C2-UNRESOLVED.md,Exact object returned status 404; not an active payload IOC
+indicator,indicator_type,first_seen,last_checked,evidence_state,current_state,related_repo,classification,evidence_ref
+orange-elephant-37703.zap.cloud,domain,2026-09-17,2026-09-20,PROVEN,NOT_CONTACTED_POLICY,Sabbirnde/Nava,CURRENT-DIRECT,evidence/c2/C2-NAVA.md
+www.configs.live,domain,2026-09-20,2026-09-20,PROVEN,REACHABLE,chainbits13/realfraction,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+138.226.247.152,ip,2026-09-17,2026-09-20,PROVEN,NOT_CONTACTED_POLICY,Sabbirnde/Nava,CURRENT-DIRECT,evidence/c2/C2-NAVA.md
+144.172.110.154,ip,2026-09-18,2026-09-20,PROVEN,REACHABLE,RealJDEX/BrickFi,CURRENT-DIRECT,evidence/c2/C2-808X.md
+166.88.134.75,ip,2026-09-18,2026-09-20,PROVEN,REACHABLE,VPRoyal/bloxhq,CURRENT-DIRECT,evidence/c2/C2-NULLRECEIVER.md
+216.126.224.247,ip,2026-09-17,2026-09-20,PROVEN,NOT_RECHECKED,antonver/defiguard-dev,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+138.226.247.152:443,ip_port,2026-09-17,2026-09-20,PROVEN,NOT_CONTACTED_POLICY,Sabbirnde/Nava,CURRENT-DIRECT,evidence/c2/C2-NAVA.md
+138.226.247.152:80,ip_port,2026-09-17,2026-09-20,PROVEN,NOT_CONTACTED_POLICY,Sabbirnde/Nava,CURRENT-DIRECT,evidence/c2/C2-NAVA.md
+144.172.110.154:8085,ip_port,2026-09-18,2026-09-20,PROVEN,REACHABLE,RealJDEX/BrickFi,CURRENT-DIRECT,evidence/c2/C2-808X.md
+144.172.110.154:8086,ip_port,2026-09-18,2026-09-20,PROVEN,ROUTE_ABSENT (METHOD-SPECIFIC),RealJDEX/BrickFi,CURRENT-DIRECT,evidence/c2/C2-808X.md
+144.172.110.154:8087,ip_port,2026-09-18,2026-09-20,PROVEN,ROUTE_ABSENT (METHOD-SPECIFIC),RealJDEX/BrickFi,CURRENT-DIRECT,evidence/c2/C2-808X.md
+166.88.134.75:443,ip_port,2026-09-18,2026-09-20,PROVEN,REACHABLE,VPRoyal/bloxhq,CURRENT-DIRECT,evidence/c2/C2-NULLRECEIVER.md
+166.88.134.75:80,ip_port,2026-09-18,2026-09-20,PROVEN,REACHABLE,VPRoyal/bloxhq,CURRENT-DIRECT,evidence/c2/C2-NULLRECEIVER.md
+5.231.107.180:3000,ip_port,2026-09-17,2026-09-20,PROVEN,NOT_CONTACTED_POLICY,Sabbirnde/Nava,CURRENT-DIRECT,evidence/c2/C2-NAVA.md
+51.210.52.212:1224,ip_port,2026-09-15,2026-09-20,PROVEN,REACHABLE,ritualaipro/MetaPlay; anshul-ind/MetaPlay-V2; Bluwhale-Company/BluSimulator ; same :1224 branch repos ; same gamboracle/AgentMesh branch,CURRENT-DIRECT,evidence/c2/C2-1224.md
+93.127.134.237:3000,ip_port,2026-09-18,2026-09-20,PROVEN,TCP_REFUSED_FROM_EGRESS,furqan137/InfinityForce_BC,CURRENT-DIRECT,evidence/c2/C2-UNRESOLVED.md
+http://138.226.247.152:80/session/0f2a3fba69d29493,url,2026-09-17,2026-09-20,PROVEN,NOT_CONTACTED_POLICY,Sabbirnde/Nava,CURRENT-DIRECT,evidence/c2/C2-NAVA.md
+http://144.172.110.154:8085/upload,url,2026-09-18,2026-09-20,PROVEN,HOST_REACHABLE / ROUTE_NOT_CONTACTED,RealJDEX/BrickFi,CURRENT-DIRECT,evidence/c2/C2-808X.md
+http://144.172.110.154:8086/upload,url,2026-09-18,2026-09-20,PROVEN,HOST_REACHABLE / ROUTE_NOT_CONTACTED,RealJDEX/BrickFi,CURRENT-DIRECT,evidence/c2/C2-808X.md
+http://144.172.110.154:8087,url,2026-09-20,2026-09-20,PROVEN,ROUTE_ABSENT (METHOD-SPECIFIC),RealJDEX/BrickFi,CURRENT-DIRECT,evidence/c2/C2-808X.md
+http://144.172.110.154:8087/api/log,url,2026-09-18,2026-09-20,PROVEN,ROUTE_ABSENT (METHOD-SPECIFIC),RealJDEX/BrickFi,CURRENT-DIRECT,evidence/c2/C2-808X.md
+http://166.88.134.75:443/0x/cb,url,2026-09-18,2026-09-20,PROVEN,REACHABLE,VPRoyal/bloxhq,CURRENT-DIRECT,evidence/c2/C2-NULLRECEIVER.md
+http://166.88.134.75:443/0x/clb,url,2026-09-18,2026-09-20,PROVEN,REACHABLE,VPRoyal/bloxhq,CURRENT-DIRECT,evidence/c2/C2-NULLRECEIVER.md
+http://166.88.134.75:443/0x/cls,url,2026-09-18,2026-09-20,PROVEN,REACHABLE,VPRoyal/bloxhq,CURRENT-DIRECT,evidence/c2/C2-NULLRECEIVER.md
+http://166.88.134.75:443/0x/js,url,2026-09-18,2026-09-20,PROVEN,REACHABLE,VPRoyal/bloxhq,CURRENT-DIRECT,evidence/c2/C2-NULLRECEIVER.md
+http://166.88.134.75:443/0x/ls,url,2026-09-18,2026-09-20,PROVEN,REACHABLE,VPRoyal/bloxhq,CURRENT-DIRECT,evidence/c2/C2-NULLRECEIVER.md
+http://166.88.134.75:80/$/boot,url,2026-09-18,2026-09-20,PROVEN,HOST_REACHABLE / ROUTE_NOT_CONTACTED,VPRoyal/bloxhq,CURRENT-DIRECT,evidence/c2/C2-NULLRECEIVER.md
+http://166.88.134.75:80/u/f,url,2026-09-18,2026-09-20,PROVEN,HOST_REACHABLE / ROUTE_NOT_CONTACTED,VPRoyal/bloxhq,CURRENT-DIRECT,evidence/c2/C2-NULLRECEIVER.md
+http://216.126.224.247/api/service/1ddd10999d785ee48d7dc5f063ddf205,url,2026-09-17,2026-09-20,PROVEN,ROUTE_ABSENT (METHOD-SPECIFIC),antonver/defiguard-dev,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+http://5.231.107.180:3000,url,2026-09-17,2026-09-20,PROVEN,NOT_CONTACTED_POLICY,Sabbirnde/Nava,CURRENT-DIRECT,evidence/c2/C2-NAVA.md
+http://5.231.107.180:3000/check,url,2026-09-17,2026-09-20,PROVEN,NOT_CONTACTED_POLICY,Sabbirnde/Nava,CURRENT-DIRECT,evidence/c2/C2-NAVA.md
+http://5.231.107.180:3000/complete,url,2026-09-17,2026-09-20,PROVEN,NOT_CONTACTED_POLICY,Sabbirnde/Nava,CURRENT-DIRECT,evidence/c2/C2-NAVA.md
+http://5.231.107.180:3000/complete/reset,url,2026-09-17,2026-09-20,PROVEN,NOT_CONTACTED_POLICY,Sabbirnde/Nava,CURRENT-DIRECT,evidence/c2/C2-NAVA.md
+http://5.231.107.180:3000/upload,url,2026-09-17,2026-09-20,PROVEN,NOT_CONTACTED_POLICY,Sabbirnde/Nava,CURRENT-DIRECT,evidence/c2/C2-NAVA.md
+http://51.210.52.212:1224/,url,2026-09-15,2026-09-20,PROVEN,REACHABLE,gamboracle branch,CURRENT-DIRECT,evidence/c2/C2-1224.md
+http://51.210.52.212:1224/api/checkStatus,url,2026-09-15,2026-09-20,PROVEN,HOST_REACHABLE / ROUTE_NOT_CONTACTED,gamboracle branch ; anshul-ind/MetaPlay-V2; Bluwhale-Company/BluSimulator; ritualaipro/MetaPlay; TarsAI-net/AgentMesh; TarsAI-com/AgentMesh ; same gamboracle/AgentMesh branch,CURRENT-DIRECT,evidence/c2/C2-1224.md
+http://93.127.134.237:3000/1,url,2026-09-18,2026-09-20,PROVEN,TCP_REFUSED_FROM_EGRESS,furqan137/InfinityForce_BC,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://1rpc.io/eth,url,2026-09-18,2026-09-20,PROVEN,REACHABLE,VPRoyal/bloxhq,CURRENT-DIRECT,evidence/c2/C2-NULLRECEIVER.md
+https://api-server-mocha.vercel.app/api/ipcheck-encrypted/607,url,2026-09-13,2026-09-20,PROVEN,DISABLED BY PROVIDER,SURUJ404/swapball,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://api.mocki.io/v2/hcwq0905,url,2026-09-18,2026-09-20,PROVEN,REACHABLE/GATED,damian-pebe/full-stack,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://api.mocki.io/v2/hiy83fst/tracks/errors/678674,url,2026-09-20,2026-09-20,PROVEN,REACHABLE/GATED,Radeonares32/koinos-assessment,CURRENT-DIRECT,evidence/c2/C2-NAVA.md
+https://api.mocki.io/v2/m7cw5k4n,url,2026-09-18,2026-09-20,PROVEN,REACHABLE/GATED,superdev1123/react_node_test,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://api.mocki.io/v2/upf7fsx3,url,2026-09-18,2026-09-20,PROVEN,REACHABLE/GATED,naman20sharma/Full-Stack-Performance-Optimization,CURRENT-DIRECT,evidence/c2/C2-NAVA.md
+https://api.mocki.io/v2/xcljkbfs,url,2026-09-18,2026-09-20,PROVEN,REACHABLE/GATED,SE3CRET/Test-assignment,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://apigoogle-ashen.vercel.app/api/settings/linux,url,2026-09-12,2026-09-20,PROVEN,REACHABLE/GATED,ritual-venture/ZetaPlay; ritualaipro/MetaPlay,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://apigoogle-ashen.vercel.app/api/settings/mac,url,2026-09-12,2026-09-20,PROVEN,REACHABLE/GATED,ritual-venture/ZetaPlay; ritualaipro/MetaPlay,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://apigoogle-ashen.vercel.app/api/settings/windows,url,2026-09-12,2026-09-20,PROVEN,REACHABLE/GATED,ritual-venture/ZetaPlay; ritualaipro/MetaPlay,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://checking-ip-eight.vercel.app/api/ip-check-encrypted/3aeb34a37,url,2026-09-12,2026-09-20,PROVEN,REACHABLE/GATED,Signalra-hub/Signalra-demo ; Cryptense-E/Jackpot-related hunt,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://cloudapi.us2.mockoon.app/v2/tracks/errors?id=BNMzi6S7MC,url,2026-09-20,2026-09-20,PROVEN,ROUTE_ABSENT (METHOD-SPECIFIC),lokeshvelayudham/test-14,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://cloudapi.us2.mockoon.app/v2/tracks/errors?id=UjcGgoh1PM,url,2026-09-18,2026-09-20,PROVEN,ROUTE_ABSENT (METHOD-SPECIFIC),Daneality/assessment,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://docs.google.com/document/d/1ADFFFjhrUgMOuKyFM8XqXh6rrM0hF2EzjYMXr4OBFXI/export?format=txt,url,2026-09-18,2026-09-20,PROVEN,REACHABLE,RealJDEX/BrickFi,CURRENT-DIRECT,evidence/c2/C2-808X.md
+https://eth-mainnet.public.blastapi.io,url,2026-09-18,2026-09-20,PROVEN,REACHABLE/GATED,VPRoyal/bloxhq,CURRENT-DIRECT,evidence/c2/C2-NULLRECEIVER.md
+https://eth.blockscout.com/api?module=account&action=txlist&address=0xa322E5f3D311D3080e6f0121063e9aDC2490Ef1a&startblock=0&endblock=99999999&page=1&offset=20&sort=desc&filterby=from,url,2026-09-18,2026-09-20,PROVEN,REACHABLE,VPRoyal/bloxhq,CURRENT-DIRECT,evidence/c2/C2-NULLRECEIVER.md
+https://eth.drpc.org,url,2026-09-18,2026-09-20,PROVEN,REACHABLE/GATED,VPRoyal/bloxhq,CURRENT-DIRECT,evidence/c2/C2-NULLRECEIVER.md
+https://ethereum-rpc.publicnode.com,url,2026-09-18,2026-09-20,PROVEN,REACHABLE/GATED,VPRoyal/bloxhq,CURRENT-DIRECT,evidence/c2/C2-NULLRECEIVER.md
+https://gamboracle.vercel.app/api,url,2026-09-12,2026-09-20,PROVEN,REACHABLE,Bluwhale-Company/BluSimulator; ritualaipro/MetaPlay; anshul-ind/MetaPlay-V2 ; anshul-ind/MetaPlay-V2; Bluwhale-Company/BluSimulator; ritualaipro/MetaPlay,CURRENT-DIRECT,evidence/c2/C2-1224.md
+https://gist.githubusercontent.com/Mariana-raro/27a05a3226960d317a6dbcd8b495c58d/raw,url,2026-09-17,2026-09-20,PROVEN,ROUTE_ABSENT (METHOD-SPECIFIC),deepak30012004/Betting,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://ip-ap-check.vercel.app/api/ip-check-encrypted/3aeb34a34,url,2026-09-12,2026-09-20,PROVEN,DISABLED BY PROVIDER,eastmade/web3project-momo-token,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://ip-ap-check.vercel.app/api/ip-check-encrypted/3aeb34a35,url,2026-09-18,2026-09-20,PROVEN,DISABLED BY PROVIDER,ricardomartins9899/SmartPay-Demo,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://ip-api-test.vercel.app/api/ip-check-encrypted/3aeb34a31,url,2026-09-12,2026-09-20,PROVEN,DISABLED BY PROVIDER,sky-cook/tokentradingdapp,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://ip-check-api.vercel.app/api/ipcheck-encrypted/3aeb34a334834,url,2026-09-13,2026-09-20,PROVEN,DISABLED BY PROVIDER,codedbyiron/ELO; JoeThunyathep/ELO,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://ip-check-server.vercel.app/api/ip-check-encrypted/3aeb34a35,url,2026-09-13,2026-09-20,PROVEN,DISABLED BY PROVIDER,itssaifurrehman/coin-dex,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://ip-check-wh-notification.vercel.app/api,url,2026-09-18,2026-09-20,PROVEN,DISABLED BY PROVIDER,mspkteam/williampotter,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://ip-check-wh.vercel.app/api,url,2026-09-12,2026-09-20,PROVEN,DISABLED BY PROVIDER,khaleb-dev/jackpot,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://ip-checking-notification-j2.vercel.app/api,url,2026-09-12,2026-09-20,PROVEN,DISABLED BY PROVIDER,sergous/DLabs-Platform-MVP2,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://ip-checkout.vercel.app/api/ip-check-encrypted/3aeb34a39,url,2026-09-18,2026-09-20,PROVEN,ROUTE_ABSENT (METHOD-SPECIFIC),RealJDEX/BrickFi,CURRENT-DIRECT,evidence/c2/C2-808X.md
+https://ip-vm.vercel.app/api/settings/bootstrap,url,2026-09-17,2026-09-20,PROVEN,REACHABLE/GATED,TarsAI-net/AgentMesh; TarsAI-com/AgentMesh,CURRENT-DIRECT,evidence/c2/C2-1224.md
+https://ip-vm.vercel.app/api/settings/bootstraplinux,url,2026-09-17,2026-09-20,PROVEN,REACHABLE/GATED,TarsAI-net/AgentMesh; TarsAI-com/AgentMesh,CURRENT-DIRECT,evidence/c2/C2-1224.md
+https://ip-vm.vercel.app/api/settings/env,url,2026-09-17,2026-09-20,PROVEN,REACHABLE/GATED,TarsAI-net/AgentMesh; TarsAI-com/AgentMesh,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://ip-vm.vercel.app/api/settings/linux,url,2026-09-17,2026-09-20,PROVEN,REACHABLE/GATED,TarsAI-net/AgentMesh; TarsAI-com/AgentMesh,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://ip-vm.vercel.app/api/settings/mac,url,2026-09-17,2026-09-20,PROVEN,REACHABLE/GATED,TarsAI-net/AgentMesh; TarsAI-com/AgentMesh,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://ip-vm.vercel.app/api/settings/package,url,2026-09-17,2026-09-20,PROVEN,REACHABLE/GATED,TarsAI-net/AgentMesh; TarsAI-com/AgentMesh,CURRENT-DIRECT,evidence/c2/C2-1224.md
+https://ip-vm.vercel.app/api/settings/windows,url,2026-09-17,2026-09-20,PROVEN,REACHABLE/GATED,TarsAI-net/AgentMesh; TarsAI-com/AgentMesh,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://ipcheck-vm.vercel.app/api,url,2026-09-12,2026-09-20,PROVEN,REACHABLE,tars-pro/AI-Market; TarsAI-com/AgentMesh; TarsAI-net/AgentMesh ; tars-pro/AI-Market; TarsAI-net/AgentMesh; TarsAI-com/AgentMesh ; TarsAI-net/AgentMesh; TarsAI-com/AgentMesh,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://jsonkeeper.com/b/J0VBJ,url,2026-09-17,2026-09-20,PROVEN,REACHABLE,antonver/defiguard-dev,CURRENT-DIRECT,evidence/c2/C2-UNRESOLVED.md
+https://jsonkeeper.com/b/LOXUW,url,2026-09-20,2026-09-20,PROVEN,ROUTE_ABSENT (METHOD-SPECIFIC),ramkrishnakuldeep/react-test,CURRENT-DIRECT,evidence/c2/C2-UNRESOLVED.md
+https://kb102531x.vercel.app/api/x,url,2026-09-18,2026-09-20,PROVEN,DISABLED BY PROVIDER,Digital-Empire/P12_Platform_Old,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://locate-my-ip.vercel.app/api/ip-check-encrypted/3aeb34a34,url,2026-09-12,2026-09-20,PROVEN,DISABLED BY PROVIDER,MBhatti26/Purrtal,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://serve-cookie.vercel.app/api/ipcheck-encrypted/20605259172,url,2026-09-18,2026-09-20,PROVEN,DISABLED BY PROVIDER,PriyodarshiGhosh/school-management-system-fixes,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://serve-cookie.vercel.app/api/ipcheck-encrypted/453532,url,2026-09-13,2026-09-20,PROVEN,DISABLED BY PROVIDER,SolutionsDevop/BestCity-Project,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://serve-cookie.vercel.app/api/ipcheck-encrypted/602074,url,2026-09-13,2026-09-20,PROVEN,DISABLED BY PROVIDER,agrawalchirag/CoreX; MahnoorKhushbakht/test-assesment,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://serve-cookie.vercel.app/api/ipcheck-encrypted/602076,url,2026-09-13,2026-09-20,PROVEN,DISABLED BY PROVIDER,sriniously/task; shadab375/react-node-task; Othmaneessafi/demo-testing; Elchin-Novruzov/interview-asg-p2,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://serve-cookie.vercel.app/api/ipcheck-encrypted/6KDisdfjlskjDI837KJH4,url,2026-09-18,2026-09-20,PROVEN,DISABLED BY PROVIDER,shri33/Crypto-Trading-Platform,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://serve-cookie.vercel.app/api/ipcheck-encrypted/757532143557,url,2026-09-18,2026-09-20,PROVEN,DISABLED BY PROVIDER,sw4pn/ht-master-assignment,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://serve-cookie.vercel.app/api/ipcheck-encrypted/7575321435571,url,2026-09-18,2026-09-20,PROVEN,DISABLED BY PROVIDER,patienceokwori/amazing-feature ; patienceokwori/amazing-feature; additional siblings,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://serve-cookie.vercel.app/api/ipcheck-encrypted/987991,url,2026-09-13,2026-09-20,PROVEN,DISABLED BY PROVIDER,AdarshRouniyar79/silknote-mvp-review,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://serve-cookie.vercel.app/api/ipcheck-encrypted/e1105303,url,2026-09-18,2026-09-20,PROVEN,DISABLED BY PROVIDER,arodriguezp2003/test_demo ; arodriguezp2003/test_demo; additional siblings,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://server-azure-tau.vercel.app/api/ipcheck-encrypted/606,url,2026-09-13,2026-09-20,PROVEN,REACHABLE,rsaw409/DeFi,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://tasksettingsnew.vercel.app/api/settings/linux,url,2026-09-12,2026-09-20,PROVEN,DISABLED BY PROVIDER,msmilan69/Result-Task,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://tasksettingsnew.vercel.app/api/settings/mac,url,2026-09-12,2026-09-20,PROVEN,DISABLED BY PROVIDER,msmilan69/Result-Task,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://tasksettingsnew.vercel.app/api/settings/windows,url,2026-09-12,2026-09-20,PROVEN,DISABLED BY PROVIDER,msmilan69/Result-Task,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://vscode-bootstrapper.vercel.app/settings/linux?flag=302,url,2026-09-20,2026-09-20,PROVEN,DISABLED BY PROVIDER,ramkrishnakuldeep/react-test,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://vscode-bootstrapper.vercel.app/settings/mac?flag=302,url,2026-09-20,2026-09-20,PROVEN,DISABLED BY PROVIDER,ramkrishnakuldeep/react-test,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://vscode-bootstrapper.vercel.app/settings/windows?flag=302,url,2026-09-20,2026-09-20,PROVEN,DISABLED BY PROVIDER,ramkrishnakuldeep/react-test,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://vscode-settings-tasks-j227.vercel.app/api/settings/linux,url,2026-09-12,2026-09-20,PROVEN,DISABLED BY PROVIDER,sergous/DLabs-Platform-MVP2,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://vscode-settings-tasks-j227.vercel.app/api/settings/mac,url,2026-09-12,2026-09-20,PROVEN,DISABLED BY PROVIDER,sergous/DLabs-Platform-MVP2,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://vscode-settings-tasks-j227.vercel.app/api/settings/windows,url,2026-09-12,2026-09-20,PROVEN,DISABLED BY PROVIDER,sergous/DLabs-Platform-MVP2,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://walter-server.vercel.app/api/ipcheck-encrypted/606,url,2026-09-13,2026-09-20,PROVEN,DISABLED BY PROVIDER,HiCodename47/Binance_assessment,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://www.configs.live/settings/linux?flag=5,url,2026-09-20,2026-09-20,PROVEN,REACHABLE,chainbits13/realfraction,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://www.configs.live/settings/mac?flag=5,url,2026-09-20,2026-09-20,PROVEN,REACHABLE,chainbits13/realfraction,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://www.configs.live/settings/windows?flag=5,url,2026-09-20,2026-09-20,PROVEN,REACHABLE,chainbits13/realfraction,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+https://www.ipregionchecker.org/api/ip-check-encrypted/3aeb34a30,url,2026-09-13,2026-09-20,PROVEN,ROUTE_ABSENT (METHOD-SPECIFIC),chainbits13/realfraction,CURRENT-DIRECT,evidence/c2/C2-808X.md
+https://www.jsonkeeper.com/b/7EBZP,url,2026-09-17,2026-09-20,PROVEN,NOT_CONTACTED_POLICY,Sabbirnde/Nava,CURRENT-DIRECT,evidence/c2/C2-UNRESOLVED.md
+https://www.jsonkeeper.com/b/HTCVE,url,2026-09-12,2026-09-20,PROVEN,ROUTE_ABSENT (METHOD-SPECIFIC),Signalra-hub/Signalra-demo ; Cryptense-E/Jackpot-related hunt,CURRENT-DIRECT,evidence/c2/C2-UNRESOLVED.md
+https://www.jsonkeeper.com/b/PAB1R,url,2026-09-17,2026-09-20,PROVEN,NOT_CONTACTED_POLICY,Sabbirnde/Nava,CURRENT-DIRECT,evidence/c2/C2-UNRESOLVED.md
+https://www.jsonkeeper.com/b/TKPMT,url,2026-09-18,2026-09-20,PROVEN,ROUTE_ABSENT (METHOD-SPECIFIC),yagiz-aydin/property-insights,CURRENT-DIRECT,evidence/c2/C2-UNRESOLVED.md
+https://www.jsonkeeper.com/b/UVEXH,url,2026-09-18,2026-09-20,PROVEN,ROUTE_ABSENT (METHOD-SPECIFIC),StormChess-lnc/3D-Chess,CURRENT-DIRECT,evidence/c2/C2-UNRESOLVED.md
+https://www.jsonkeeper.com/b/WSPQI,url,2026-09-18,2026-09-20,PROVEN,ROUTE_ABSENT (METHOD-SPECIFIC),yagiz-aydin/property-insights,CURRENT-DIRECT,evidence/c2/C2-UNRESOLVED.md
+https://y-lilac-sigma.vercel.app/api/ipcheck-encrypted/607,url,2026-09-13,2026-09-20,PROVEN,DISABLED BY PROVIDER,StarCraft-Dred/testing,CURRENT-DIRECT,iocs/recheck-2026-09-20.md
+ws://144.172.110.154:8087,url,2026-09-18,2026-09-20,PROVEN,HOST_REACHABLE / WS_NOT_HANDSHAKEN,RealJDEX/BrickFi,CURRENT-DIRECT,evidence/c2/C2-808X.md
