@@ -1,0 +1,7 @@
+indicator,type,role,observed,related_repo,evidence_ref,notes
+0xa322E5f3D311D3080e6f0121063e9aDC2490Ef1a,ethereum_address,NullReceiver mutable resolver sender,2026-09-20,VPRoyal/bloxhq,evidence/c2/C2-NULLRECEIVER.md,Latest outbound recipient encodes two IPv4s
+0x98b27caa023221ed5718501ed9cb452d634480c1a2ace2064dd4b3c65f40f58a,ethereum_tx,NullReceiver latest observed pointer transaction,2026-09-20,VPRoyal/bloxhq,evidence/c2/C2-NULLRECEIVER.md,block 26016999 nonce 406
+0xa658864ba658864b68656c6c6f6970626f742121,ethereum_recipient,encoded NullReceiver pointer,2026-09-20,VPRoyal/bloxhq,evidence/c2/C2-NULLRECEIVER.md,decodes 166.88.134.75 twice + helloipbot!!
+TBMcSRezuxdoNEC8gD3uS4GQVGvybYU4UU,tron_address,Nava resolver address,2026-09-17,Sabbirnde/Nava,evidence/c2/C2-NAVA.md,read-only public-chain evidence
+a323fb6e0b9ff85d63f3fa5a16f2c369dd48acbb085460e4b7bb7c54ae1437fe,tron_tx,Nava resolver transaction,2026-09-17,Sabbirnde/Nava,evidence/c2/C2-NAVA.md,block 86260511 timestamp 2026-09-15 06:27:48 UTC
+0xbf3fa7a35ab2ee7e243134f39e367b8774d32810fd9b66355c8eba135b2fca9f,bsc_tx,Nava BSC calldata carrier,2026-09-17,Sabbirnde/Nava,evidence/c2/C2-NAVA.md,decoded to final session URL
