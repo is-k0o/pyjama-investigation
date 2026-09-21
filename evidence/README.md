@@ -19,6 +19,7 @@ The working campaign model is defined in [../taxonomy.md](../taxonomy.md).
 - [c2/C2-NAVA.md](c2/C2-NAVA.md) — Nava multihop-blockchain backend.
 - [c2/C2-UNRESOLVED.md](c2/C2-UNRESOLVED.md) — unresolved final-backend cases; this is a state, not a C2 architecture.
 - [reverse-hunt/fake-font-lineage.md](reverse-hunt/fake-font-lineage.md) — A / BC / D / NEB / VMOBI fake-font lineage and boundaries.
+- [enforcement/github-2026-09-21.md](enforcement/github-2026-09-21.md) — GitHub Trust & Safety enforcement confirmation and API verification for `ritualaipro/MetaPlay`.
 
 ## Evidence states
 
