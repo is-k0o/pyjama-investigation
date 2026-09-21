@@ -1,4 +1,4 @@
-# Prior-art / novelty audit — 2026-09-20
+# Prior-art / novelty audit — updated 2026-09-21
 
 Purpose: separate public prior art from defensible project contributions. **IOC freshness is not methodological novelty.**
 
@@ -19,7 +19,7 @@ Labels: **KNOWN**, **EXTENDED**, **CORRELATED/LINKED BY US**, **APPARENTLY NEW**
 | NullReceiver sender 0xa322... / helloipbot!! | KNOWN | Public NullReceiver reporting / Socket 2026-09-17 | Our later tx observation is temporal evidence only. |
 | A/BC/D/NEB/VMOBI wrappers converge to same 16,674-char NullReceiver inner | CORRELATED/LINKED BY US | No matching five-generation normalization result found in targeted search. | Strong candidate contribution; code lineage != operator identity or per-repo liveness. |
 | Bounded 90-repository reverse-hunt corpus | EXTENDED / CORRELATED BY US | Earlier public fake-font research reported smaller repository/variant sets. | 90 is a bounded captured dataset, not an exhaustive census. |
-| Nava JSONKeeper -> TRON -> BSC calldata -> decode -> session backend | APPARENTLY NEW | Blockchain-assisted resolution is known; targeted search found no matching exact TRON->BSC Nava chain. | Strong provisional contribution; do not generalize one sample campaign-wide. |
+| Nava JSONKeeper -> TRON -> BSC calldata -> decode -> session backend | KNOWN mechanism / EXTENDED instance | Ransom-ISAC, Oct. 2025, Cross-Chain TxDataHiding: https://ransom-isac.org/blog/cross-chain-txdatahiding-crypto-heist/ | The technique is prior art. The project contribution is the independently reconstructed current Nava implementation from repository loader through the final HTTP-delivered agent. |
 | Multiple trigger forms converge on reusable mid-tier/backend families | CORRELATED/LINKED BY US | Vendors already document multiple variants/infrastructure rotation. | Our contribution is the evidence-backed corpus architecture, not a universal taxonomy. |
 
 ## Corrections from first-pass intuition
@@ -28,13 +28,14 @@ Labels: **KNOWN**, **EXTENDED**, **CORRELATED/LINKED BY US**, **APPARENTLY NEW**
 - The 8085/8086/8087 tuple is prior art; cross-repository linkage/role mapping is the potentially useful contribution.
 - JSONKeeper use at campaign scale is prior art.
 - NullReceiver, recipient encoding, sender wallet and `helloipbot!!` are prior art.
+- Cross-chain TxDataHiding is prior art; the Nava result is an extended/current implementation reconstruction, not discovery of the technique.
 
 ## Strongest provisional contributions
 
 1. A/BC/D/NEB/VMOBI normalization to one NullReceiver inner.
 2. Cross-trigger/cross-loader architecture mapping with explicit evidence boundaries.
-3. Nava TRON -> BSC multihop chain, pending final prior-art verification.
+3. Nava repository-to-final-agent reconstruction as a current instance of known Cross-Chain TxDataHiding tradecraft.
 4. C2-808X cross-repository linkage/role mapping, not the port tuple itself.
 5. realfraction terminal-profile trigger, pending final search.
 
-`APPARENTLY NEW` means only that no matching publication was found in this bounded audit as of 2026-09-20.
+`APPARENTLY NEW` means only that no matching publication was found in the bounded audit for the specific claim carrying that label.
