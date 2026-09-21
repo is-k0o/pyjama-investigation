@@ -6,7 +6,7 @@ Backfill for article-relevant representatives, not every repository in the bound
 |---|---|---|---|---|---|
 | TarsAI-net/AgentMesh | TRIG-VSCODE-FOLDEROPEN | LOCAL-SHELL-FETCHER | MID-REMOTE-CHAIN | C2-1224 | PROVEN; active at 2026-09-17 observation |
 | RealJDEX/BrickFi | TRIG-APP-START-IMPORT | LOCAL-JS-NETWORK-LOADER | MID-HTTP-STAGE | C2-808X | PROVEN |
-| chainbits13/realfraction | TRIG-VSCODE-PROFILE | LOCAL-SHELL-FETCHER | MID-REMOTE-CHAIN | C2-808X | PROVEN current; old backend HISTORICAL |
+| chainbits13/realfraction | TRIG-VSCODE-PROFILE | LOCAL-SHELL-FETCHER | MID-REMOTE-CHAIN | C2-808X | PROVEN chain; REPO GONE by public API check 2026-09-21; old backend HISTORICAL |
 | VPRoyal/bloxhq (A) | TRIG-VSCODE-FOLDEROPEN | LOCAL-FAKE-ASSET-NODE | MID-ETH-RESOLVER | C2-NULLRECEIVER | PROVEN representative |
 | Isaac-1-lang/Real_time_chatting (BC) | folderOpen | fake asset Node | ETH resolver | NullReceiver lineage | PROVEN static lineage; per-repo liveness UNKNOWN |
 | wpeventmanager/wp-event-manager (D) | folderOpen | fake asset Node | ETH resolver | NullReceiver lineage | PROVEN static lineage; per-repo liveness UNKNOWN |
