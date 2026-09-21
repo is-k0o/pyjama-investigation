@@ -9,7 +9,7 @@ Labels: **KNOWN**, **EXTENDED**, **CORRELATED/LINKED BY US**, **APPARENTLY NEW**
 | Fake coding interviews/repositories | KNOWN | Microsoft, 2026-03-11: https://www.microsoft.com/en-us/security/blog/2026/03/11/contagious-interview-malware-delivered-through-fake-developer-job-interviews/ | Campaign model is not new. |
 | VS Code `runOn: folderOpen` | KNOWN | Microsoft 2026-03-11; OpenSourceMalware Fake Font, indexed 2026-01-28: https://lazarus.day/reports/post/new-dprk-contagious-interview-campaign-fake-font-uses-malicious-vscode-fonts-K31ls | Repeated across our corpus; Workspace Trust conditions matter. |
 | JavaScript disguised as `.woff2` | KNOWN | OpenSourceMalware 2026-01-28; Socket/PolinRider 2026-09-17: https://socket.dev/blog/polinrider-github-packagist | A/BC/D/NEB/VMOBI lineage mapping may extend prior art; disguise itself does not. |
-| VS Code terminal-profile trigger | APPARENTLY NEW | Targeted search found broad VS Code task abuse but no matching public Contagious Interview description for the realfraction terminal-profile trigger. | Provisional; rerun exact search before publication. |
+| VS Code terminal-profile trigger | KNOWN / EXTENDED instance | A public developer report in September 2026 independently described a malicious VS Code terminal profile used during a recruitment scam to download and execute a remote script when opening a terminal: https://www.linkedin.com/posts/mariuszrolinski_two-recruitment-scams-in-the-last-couple-activity-7495839900647481344-B_5D | The realfraction implementation remains project evidence, but the trigger pattern is not claimed as novel. |
 | npm lifecycle/module-load execution | KNOWN | Microsoft 2026-03-11 and public campaign research | Repository-specific mappings are extensions, not discovery of the technique. |
 | JSONKeeper dead-drop delivery | KNOWN | Ossprey campaign research: https://www.ossprey.com/blog/how-ossprey-uncovered-a-large-scale-dprk-contagious-interview-campaign | Exact SURUJ/Nava chains can extend prior art; JSONKeeper use generally is not new. |
 | HTTP error-body execution | KNOWN mechanism / EXTENDED instance | NTT Security documents HTTP 500 -> catch -> execute response JavaScript: https://jp.security.ntt/insights_resources/tech_blog/en-contagious-interview-ottercookie/ | rsaw/DeFi exact sample/hash and downstream are project evidence. |
@@ -36,6 +36,6 @@ Labels: **KNOWN**, **EXTENDED**, **CORRELATED/LINKED BY US**, **APPARENTLY NEW**
 2. Cross-trigger/cross-loader architecture mapping with explicit evidence boundaries.
 3. Nava repository-to-final-agent reconstruction as a current instance of known Cross-Chain TxDataHiding tradecraft.
 4. C2-808X cross-repository linkage/role mapping, not the port tuple itself.
-5. realfraction terminal-profile trigger, pending final search.
+5. realfraction terminal-profile implementation as an independently reconstructed instance of a publicly documented trigger pattern.
 
 `APPARENTLY NEW` means only that no matching publication was found in the bounded audit for the specific claim carrying that label.
