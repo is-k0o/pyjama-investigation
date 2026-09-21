@@ -20,6 +20,7 @@ The working campaign model is defined in [../taxonomy.md](../taxonomy.md).
 - [c2/C2-UNRESOLVED.md](c2/C2-UNRESOLVED.md) — unresolved final-backend cases; this is a state, not a C2 architecture.
 - [reverse-hunt/fake-font-lineage.md](reverse-hunt/fake-font-lineage.md) — A / BC / D / NEB / VMOBI fake-font lineage and boundaries.
 - [enforcement/github-2026-09-21.md](enforcement/github-2026-09-21.md) — GitHub Trust & Safety enforcement confirmation and API verification for `ritualaipro/MetaPlay`.
+- [disclosure-status-2026-09-21.md](disclosure-status-2026-09-21.md) — external disclosure freeze: GitHub disclosed, ThreatFox submitted, provider-specific abuse reporting not exhaustive.
 
 ## Evidence states
 
@@ -39,6 +40,18 @@ The working campaign model is defined in [../taxonomy.md](../taxonomy.md).
 - Preserve historical and current infrastructure separately.
 - Static maliciousness and current infrastructure liveness are separate judgments.
 
+## Disclosure status
+
+As of **2026-09-21**:
+
+```text
+GitHub    -> disclosed
+ThreatFox -> submitted
+Provider-specific abuse reporting -> not exhaustively performed
+```
+
+See [disclosure-status-2026-09-21.md](disclosure-status-2026-09-21.md).
+
 ## Next evidence work
 
-This first pass captures the highest-value confirmed branches and reverse-hunt representatives. The remaining task is to backfill the rest of the original 68-row tracker with repository-specific evidence records without weakening the evidence boundary.
+The next phase is publication preparation: pin exact repository file / commit / blob / date anchors for the remaining representative local triggers/loaders, finish the targeted prior-art checks, and build the publication figures without weakening the evidence boundary.
