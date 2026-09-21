@@ -14,6 +14,7 @@ The canonical network IOC sets were rebuilt from the three conversation exports 
 - [historical.csv](historical.csv) — **36** historically linked, rotated, neutralized, or superseded network indicators.
 - [candidates.csv](candidates.csv) — **56** passive, same-template, context-only, or otherwise unlinked candidates that are deliberately **not promoted** to direct campaign IOCs.
 - [recheck-2026-09-20.md](recheck-2026-09-20.md) — interpretation of the bounded network recheck.
+- [threatfox-submission-2026-09-21.md](threatfox-submission-2026-09-21.md) — final ThreatFox submission summary, deduplication outcome, current-vs-historical correction and exclusions.
 - [blockchain.csv](blockchain.csv) — Ethereum/TRON/BSC resolver indicators and transactions.
 - [hashes.csv](hashes.csv) — SHA-256 hashes of recovered stages/artifacts.
 - [repositories.csv](repositories.csv) — repository URLs, confidence/state and taxonomy path.
@@ -73,3 +74,13 @@ Before submitting an IOC externally:
 6. deduplicate against the target TI platform before submission.
 
 The publication/reporting set should be derived from these files, not reconstructed from memory.
+
+## External reporting status
+
+As of **2026-09-21**:
+
+- **ThreatFox:** submitted; 28 new IOC submissions returned OK after exact deduplication, with 17 queue entries already present.
+- **GitHub:** consolidated repository/method disclosure sent separately; see [../evidence/disclosure-status-2026-09-21.md](../evidence/disclosure-status-2026-09-21.md).
+- **Provider-specific abuse reporting:** not exhaustively performed.
+
+The reporting phase does not change evidence states or promote historical/candidate infrastructure.
