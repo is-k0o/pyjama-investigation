@@ -87,6 +87,8 @@ The final preflight contained:
 
 All **28 new submissions returned OK**.
 
+Across all ThreatFox submission runs performed during the investigation, **61 distinct IOCs were accepted cumulatively**. The 28 above refer only to the final 2026-09-21 submission run after deduplication.
+
 Submitted groups included current/direct infrastructure from:
 
 - AgentMesh / C2-1224;
