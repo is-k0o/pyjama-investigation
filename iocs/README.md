@@ -1,10 +1,10 @@
 # IOCs
 
-Private working IOC set for the **pyjama-investigation** project.
+IOC set for the **pyjama-investigation** project.
 
 Investigation start: **2026-09-12**
 
-This directory is the staging area for IOC review before external reporting or publication.
+This directory contains the canonical IOC sets and reporting records used by the project.
 
 ## Canonical files — recalculated 2026-09-20
 
@@ -79,7 +79,7 @@ The publication/reporting set should be derived from these files, not reconstruc
 
 As of **2026-09-21**:
 
-- **ThreatFox:** submitted; 28 new IOC submissions returned OK after exact deduplication, with 17 queue entries already present.
+- **ThreatFox:** **61 distinct IOCs were accepted cumulatively across the investigation**. The final submission run added **28 new accepted IOCs** after exact deduplication, with 17 queue entries already present.
 - **GitHub:** consolidated repository/method disclosure sent separately; see [../evidence/disclosure-status-2026-09-21.md](../evidence/disclosure-status-2026-09-21.md).
 - **Provider-specific abuse reporting:** not exhaustively performed.
 
