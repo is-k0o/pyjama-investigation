@@ -44,3 +44,9 @@ As of **2026-09-21**:
 - Provider-specific abuse reporting was performed selectively, not exhaustively.
 
 See [`evidence/disclosure-status-2026-09-21.md`](evidence/disclosure-status-2026-09-21.md) for the frozen disclosure record.
+
+## License
+
+Except where otherwise noted, original research text, analysis, taxonomy, annotations and project-generated datasets are licensed under the [Creative Commons Attribution 4.0 International license (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+
+Third-party material remains subject to its original rights and terms. See [`LICENSE`](LICENSE).
