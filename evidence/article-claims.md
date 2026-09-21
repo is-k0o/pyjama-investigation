@@ -7,7 +7,7 @@ Publication-facing ledger. Evidence state is kept separate from novelty.
 | AgentMesh folderOpen -> OS stagers -> remote bootstrap/env -> :1224 backend | PROVEN | c2/C2-1224.md | Active only at dated observation. |
 | MetaPlay/gamboracle and AgentMesh converge on 51.210.52.212:1224/api/checkStatus | PROVEN | c2/C2-1224.md | Cross-trigger convergence; not operator attribution. |
 | BrickFi, realfraction and rsaw/DeFi share an 808X service pattern | PROVEN per chain / correlation synthesis | c2/C2-808X.md | Port tuple is public prior art; linkage/role mapping is the contribution candidate. |
-| realfraction uses a VS Code terminal/profile trigger | PROVEN | c2/C2-808X.md | APPARENTLY NEW only provisionally. |
+| realfraction uses a VS Code terminal/profile trigger | PROVEN | c2/C2-808X.md | Trigger pattern is publicly documented elsewhere; this project independently reconstructs the realfraction implementation. |
 | rsaw/DeFi uses HTTP error-body delivery | PROVEN | c2/C2-808X.md | Technique is public prior art; exact instance extends it. |
 | A/BC/D/NEB/VMOBI wrappers converge to the same 16,674-character NullReceiver inner | PROVEN static lineage | reverse-hunt/fake-font-lineage.md; c2/C2-NULLRECEIVER.md | No operator identity or per-repository liveness inference. |
 | Reverse-hunt captured 90 repositories external to original 68-row tracker | PROVEN dataset fact | reverse-hunt/fake-font-lineage.md | Bounded captured dataset, not prevalence/exhaustive count. |
