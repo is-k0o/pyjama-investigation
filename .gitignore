@@ -1,0 +1,18 @@
+# Local configuration / secrets
+.env
+.env.*
+!.env.example
+
+# Keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local reporting output
+threatfox_submission_results_*.json
+
+# Raw samples are intentionally not committed by default
+raw/
+raw-samples/
+samples/raw/

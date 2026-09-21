@@ -2,7 +2,7 @@
 
 Evidence supporting the **pyjama-investigation** project.
 
-Investigation start: **2026-09-12**
+Investigation start: **2026-09-11**
 
 ## Purpose
 
@@ -19,6 +19,7 @@ The working campaign model is defined in [../taxonomy.md](../taxonomy.md).
 - [c2/C2-NAVA.md](c2/C2-NAVA.md) — Nava multihop-blockchain backend.
 - [c2/C2-UNRESOLVED.md](c2/C2-UNRESOLVED.md) — unresolved final-backend cases; this is a state, not a C2 architecture.
 - [reverse-hunt/fake-font-lineage.md](reverse-hunt/fake-font-lineage.md) — A / BC / D / NEB / VMOBI fake-font lineage and boundaries.
+- [representatives/pins.csv](representatives/pins.csv) — immutable repository-side commit/path/blob anchors for article-relevant representatives where recoverable.
 - [enforcement/github-2026-09-21.md](enforcement/github-2026-09-21.md) — GitHub Trust & Safety enforcement confirmation and API verification for `ritualaipro/MetaPlay`.
 - [disclosure-status-2026-09-21.md](disclosure-status-2026-09-21.md) — external disclosure freeze: GitHub disclosed, ThreatFox submitted, provider-specific abuse reporting not exhaustive.
 
@@ -54,4 +55,4 @@ See [disclosure-status-2026-09-21.md](disclosure-status-2026-09-21.md).
 
 ## Publication state
 
-The remaining publication work is evidence pinning and maintenance of exact repository file / commit / blob / date anchors without weakening the evidence boundary.
+Representative repository-side pins are recorded in [representatives/pins.csv](representatives/pins.csv), and the bounded 68 + 90 repository source lists are published under [../datasets/](../datasets/). Where an exact immutable repository pin could not be recovered after a source repository disappeared, the gap is recorded explicitly rather than reconstructed from inference.

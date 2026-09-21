@@ -1,0 +1,69 @@
+repository,url,confidence,lineage_or_cluster,current_state,state_observed_at
+Cryptense-E/Jackpot,https://github.com/Cryptense-E/Jackpot,A — confirmed chain,Jackpot / :1224 checkStatus,REPO GONE,2026-09-16
+ritual-venture/ZetaPlay,https://github.com/ritual-venture/ZetaPlay,A — confirmed chain,gamboracle / MetaPlay branch,REPO GONE,2026-09-16
+tars-pro/AI-Market,https://github.com/tars-pro/AI-Market,A — confirmed chain,ipcheck-vm / ip-vm branch,REPO GONE,2026-09-17
+TarsAI-net/AgentMesh,https://github.com/TarsAI-net/AgentMesh,A — confirmed chain,AgentMesh / ip-vm → :1224,ACTIVE,2026-09-17
+TarsAI-com/AgentMesh,https://github.com/TarsAI-com/AgentMesh,A — confirmed chain,AgentMesh / ip-vm → :1224,ACTIVE,2026-09-17
+sergous/DLabs-Platform-MVP2,https://github.com/sergous/DLabs-Platform-MVP2,A — confirmed chain,DLabs / Vercel stagers,INACTIVE — WATCH REPO,2026-09-17
+anshul-ind/MetaPlay-V2,https://github.com/anshul-ind/MetaPlay-V2,A — confirmed chain,gamboracle / MetaPlay branch,ACTIVE,2026-09-17
+khaleb-dev/jackpot,https://github.com/khaleb-dev/jackpot,A — confirmed chain,Jackpot / ip-check-wh,INACTIVE — WATCH REPO,2026-09-17
+rony1235/Jp-Soccer,https://github.com/rony1235/Jp-Soccer,A — confirmed chain,env-exfil / RCE with unresolved AUTH_API,INDETERMINATE — C1 UNRESOLVED,2026-09-20
+msmilan69/Result-Task,https://github.com/msmilan69/Result-Task,A — confirmed chain,folderOpen / tasksettingsnew,INACTIVE — WATCH REPO,2026-09-17
+MBhatti26/Purrtal,https://github.com/MBhatti26/Purrtal,A — confirmed chain,x-secret-header / locate-my-ip,INACTIVE — WATCH REPO,2026-09-17
+eastmade/web3project-momo-token,https://github.com/eastmade/web3project-momo-token,A — confirmed chain,x-secret-header / ip-ap-check,INACTIVE — WATCH REPO,2026-09-17
+sky-cook/tokentradingdapp,https://github.com/sky-cook/tokentradingdapp,A — confirmed chain,x-secret-header / ip-api-test,INACTIVE — WATCH REPO,2026-09-17
+ricardomartins9899/SmartPay-Demo,https://github.com/ricardomartins9899/SmartPay-Demo,A — confirmed chain,x-secret-header / ip-ap-check,INACTIVE — WATCH REPO,2026-09-18
+RealJDEX/BrickFi,https://github.com/RealJDEX/BrickFi,A — confirmed chain,BrickFi / modular 8085-8087 backend,ACTIVE,2026-09-18
+Signalra-hub/Signalra-demo,https://github.com/Signalra-hub/Signalra-demo,A — confirmed chain,JSONKeeper dead-drop branch,REPO GONE,2026-09-16
+zulqarnain-mughal/technical-assessment436,https://github.com/zulqarnain-mughal/technical-assessment436,A — confirmed chain,gd.tracelic error-body RCE,INACTIVE — WATCH REPO,2026-09-17
+ashayk9/technical-assessment436,https://github.com/ashayk9/technical-assessment436,A — confirmed chain,gd.tracelic error-body RCE,INACTIVE — WATCH REPO,2026-09-17
+SebastianBoehler/technical-assessment436,https://github.com/SebastianBoehler/technical-assessment436,A — confirmed chain,gd.tracelic error-body RCE,INACTIVE — WATCH REPO,2026-09-17
+KhalkarYash/hashgraph-assessment,https://github.com/KhalkarYash/hashgraph-assessment,A — confirmed chain,gd.tracelic error-body RCE,INACTIVE — WATCH REPO,2026-09-17
+Ozodbekk1/task-crud,https://github.com/Ozodbekk1/task-crud,A — confirmed chain,gd.tracelic error-body RCE,INACTIVE — WATCH REPO,2026-09-17
+chainbits13/realfraction,https://github.com/chainbits13/realfraction,A — confirmed chain,realfraction / configs.live → ipregionchecker / modular 8085-8087,ACTIVE,2026-09-20
+AdarshRouniyar79/silknote-mvp-review,https://github.com/AdarshRouniyar79/silknote-mvp-review,A — confirmed chain,serve-cookie error-body RCE,INACTIVE — WATCH REPO,2026-09-17
+sriniously/task,https://github.com/sriniously/task,A — confirmed chain,serve-cookie error-body RCE,INACTIVE — WATCH REPO,2026-09-17
+MADHURANGA-SKP/Demo-project-FVR,https://github.com/MADHURANGA-SKP/Demo-project-FVR,A — confirmed chain,fashdefi /defy branch,INACTIVE — WATCH REPO,2026-09-17
+nicoegiaian/MVP-master,https://github.com/nicoegiaian/MVP-master,A — confirmed chain,fashdefi /defy branch,INACTIVE — WATCH REPO,2026-09-17
+JoeThunyathep/ELO,https://github.com/JoeThunyathep/ELO,A — confirmed chain,ELO / ip-check-api,INACTIVE — WATCH REPO,2026-09-17
+codedbyiron/ELO,https://github.com/codedbyiron/ELO,A — confirmed chain,ELO / ip-check-api,INACTIVE — WATCH REPO,2026-09-17
+itssaifurrehman/coin-dex,https://github.com/itssaifurrehman/coin-dex,A — confirmed chain,coin-dex / ip-check-server,INACTIVE — WATCH REPO,2026-09-17
+agrawalchirag/CoreX,https://github.com/agrawalchirag/CoreX,A — confirmed chain,serve-cookie error-body RCE,INACTIVE — WATCH REPO,2026-09-17
+MahnoorKhushbakht/test-assesment,https://github.com/MahnoorKhushbakht/test-assesment,A — confirmed chain,serve-cookie error-body RCE,INACTIVE — WATCH REPO,2026-09-17
+Bluwhale-Company/BluSimulator,https://github.com/Bluwhale-Company/BluSimulator,A — confirmed chain,gamboracle / MetaPlay branch,REPO GONE,2026-09-18
+ritualaipro/MetaPlay,https://github.com/ritualaipro/MetaPlay,A — confirmed chain,gamboracle / MetaPlay branch,REPO GONE,2026-09-18
+Sabbirnde/Nava,https://github.com/Sabbirnde/Nava,A — confirmed chain,OtterCookie-lineage / TRON→BSC dead-drop,ACTIVE,2026-09-17
+deepak30012004/Betting,https://github.com/deepak30012004/Betting,A — confirmed chain,Historical Gist/Function branch,INACTIVE — WATCH REPO,2026-09-17
+keithjia/realtor,https://github.com/keithjia/realtor,A — confirmed chain,Historical npoint/Function branch,INACTIVE — WATCH REPO,2026-09-17
+upendra512/assessment1_solution,https://github.com/upendra512/assessment1_solution,B — suspicious/incomplete,Dormant DB_API_KEY loader / unresolved config,INACTIVE — WATCH REPO,2026-09-20
+antonver/defiguard-dev,https://github.com/antonver/defiguard,A — confirmed chain,JSONKeeper loader / IIS downstream,PARTIALLY ACTIVE,2026-09-17
+stormChess-lnc/3D-Chess,https://github.com/StormChess-lnc/3D-Chess,B — suspicious/incomplete,JSONKeeper Base64-model RCE,INACTIVE — WATCH REPO,2026-09-18
+naman20sharma/Full-Stack-Performance-Optimization,https://github.com/naman20sharma/Full-Stack-Performance-Optimization,B — suspicious/incomplete,Mocki cookie-field RCE,INACTIVE — WATCH REPO,2026-09-18
+user2745/dev-test-kamto-kionos,https://github.com/user2745/dev-test-kamto-kionos,A — confirmed chain,VS Code settings bootstrap / flag=302,INACTIVE — WATCH REPO,2026-09-18
+yagiz-aydin/property-insights,https://github.com/yagiz-aydin/property-insights,A — confirmed chain,JSONKeeper cookie-field RCE,INACTIVE — WATCH REPO,2026-09-18
+Daneality/assessment,https://github.com/Daneality/assessment,A — confirmed chain,Mockoon cookie/error-body loader,INACTIVE — WATCH REPO,2026-09-18
+furqan137/InfinityForce_BC,https://github.com/furqan137/InfinityForce_BC,A — confirmed chain,direct :3000 JSON/cookie loader,INACTIVE — WATCH REPO,2026-09-18
+Digital-Empire/P12_Platform_Old,https://github.com/Digital-Empire/P12_Platform_Old,A — confirmed chain,Vercel cookie-field loader,INACTIVE — WATCH REPO,2026-09-18
+VPRoyal/bloxhq,https://github.com/VPRoyal/bloxhq,A — confirmed chain,NullReceiver / Ethereum recipient-address resolver,ACTIVE,2026-09-18
+superdev1123/react_node_test,https://github.com/superdev1123/react_node_test,A — confirmed chain,Mocki cookie-field RCE,INACTIVE — WATCH REPO,2026-09-18
+damian-pebe/full-stack,https://github.com/damian-pebe/full-stack,A — confirmed chain,Mocki cookie-field RCE,INACTIVE — WATCH REPO,2026-09-18
+SE3CRET/Test-assignment,https://github.com/SE3CRET/Test-assignment,A — confirmed chain,Mocki cookie-field RCE,INACTIVE — WATCH REPO,2026-09-18
+Andre1917/challenge,https://github.com/Andre1917/challenge,A — confirmed chain,VS Code settings bootstrap / flag=305,INACTIVE — WATCH REPO,2026-09-18
+ramkrishnakuldeep/react-test,https://github.com/ramkrishnakuldeep/react-test,A — confirmed chain,dual branch: VS Code bootstrap + JSONKeeper cookie-field RCE,INACTIVE — WATCH REPO,2026-09-20
+Badeonares32/koinos-assessment,https://github.com/Radeonares32/koinos-assessment,A — confirmed chain,Mocki cookie-field RCE,INACTIVE — WATCH REPO,2026-09-20
+lokeshvelayudham/test-14,https://github.com/lokeshvelayudham/test-14,A — confirmed chain,Mockoon cookie-field RCE,INACTIVE — WATCH REPO,2026-09-20
+shadab375/react-node-task,https://github.com/shadab375/react-node-task,A — confirmed chain,serve-cookie error-body RCE,INACTIVE — WATCH REPO,2026-09-18
+Othmaneessafi/demo-testing,https://github.com/Othmaneessafi/demo-testing,B — suspicious/incomplete,serve-cookie constants / error-handler branch,INACTIVE — WATCH REPO,2026-09-18
+Elchin-Novruzov/interview-asg-p2,https://github.com/Elchin-Novruzov/interview-asg-p2,B — suspicious/incomplete,serve-cooie constants / error-handler branch,INACTIVE — WATCH REPO,2026-09-18
+SolutionsDevop/BestCity-Project,https://github.com/SolutionsDevop/BestCity-Project,A — confirmed chain,serve-cooie error-body RCE,INACTIVE — WATCH REPO,2026-09-18
+syrilj/test_project,https://github.com/syrilj/test_project,A — confirmed chain,error-body RCE / server-victory5,INACTIVE — WATCH REPO,2026-09-18
+HiCodename47/Binance_assessment,https://github.com/HiCodename47/Binance_assessment,A — confirmed chain,error-body RCE / walter-server,INACTIVE — WATCH REPO,2026-09-18
+StarCraft-Dred/testing,https://github.com/StarCraft-Dred/testing,A — confirmed chain,env-resolved Vercel error-body RCE,INACTIVE — WATCH REPO,2026-09-20
+rsaw409/DeFi,https://github.com/rsaw409/DeFi,A — confirmed chain,env-resolved Vercel error-body RCE / live obfuscated JS stage,ACTIVE,2026-09-20
+SURUJ404/swapball,https://github.com/SURUJ404/swapball,A — confirmed chain,env-resolved Vercel error-body RCE,INACTIVE — WATCH REPO,2026-09-20
+mspkteam/williampotter,https://github.com/mspkteam/williampotter,A — confirmed chain,AgentMesh/AjunaVerse-style env-exfil RCE,INACTIVE — WATCH REPO,2026-09-18
+patienceokwori/amazing-feature,https://github.com/patienceokwori/amazing-feature,B — suspicious/incomplete,serve-cookie constants / error-handler branch,INACTIVE — WATCH REPO,2026-09-18
+arodriguezp2003/test_demo,https://github.com/arodriguezp2003/test_demo,B — suspicious/incomplete,serve-cookie constants / error-handler branch,INACTIVE — WATCH REPO,2026-09-18
+sw4pn/ht-master-assignment,https://github.com/sw4pn/ht-master-assignment,B — suspicious/incomplete,serve-cookie constants / error-handler branch,INACTIVE — WATCH REPO,2026-09-18
+PriyodarshiGhosh/school-management-system-fixes,https://github.com/PriyodarshiGhosh/school-management-system-fixes,B — suspicious/incomplete,serve-cookie constants / error-handler branch,INACTIVE — WATCH REPO,2026-09-18
+shri33/Crypto-Trading-Platform,https://github.com/shri33/Crypto-Trading-Platform,A — confirmed chain,serve-cookie error-body RCE,INACTIVE — WATCH REPO,2026-09-18

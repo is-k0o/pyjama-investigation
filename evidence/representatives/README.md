@@ -2,6 +2,8 @@
 
 Backfill for article-relevant representatives, not every repository in the bounded corpus.
 
+Immutable repository-side anchors are listed in [`pins.csv`](pins.csv). A pin records the commit, path and Git blob ID where those values were recoverable. It does **not** imply that the repository or downstream infrastructure remains live.
+
 | Representative | Trigger | Local loader | Mid-tier | Backend/state | Evidence |
 |---|---|---|---|---|---|
 | TarsAI-net/AgentMesh | TRIG-VSCODE-FOLDEROPEN | LOCAL-SHELL-FETCHER | MID-REMOTE-CHAIN | C2-1224 | PROVEN; active at 2026-09-17 observation |
@@ -16,6 +18,10 @@ Backfill for article-relevant representatives, not every repository in the bound
 | SURUJ404/NFT-GAMEFY | TRIG-VSCODE-FOLDEROPEN | LOCAL-FAKE-ASSET-NODE | MID-DEADDROP-JSON | unresolved | PROVEN through dead-drop; final UNKNOWN |
 | rony1235/Jp-Soccer | TRIG-VSCODE-FOLDEROPEN | LOCAL-JS-NETWORK-LOADER | unresolved | unresolved | top-level folderOpen trigger PROVEN; npm install/start/prepare is a subordinate handoff; local sink PROVEN; exact C1 UNKNOWN; sibling C1 INFERRED-CANDIDATE |
 | upendra512/assessment1_solution | not established | suspicious JS module | unresolved | unresolved | UNKNOWN/incomplete |
+
+## Pinning boundary
+
+Most surviving representatives are pinned to a commit + path + Git blob. `Cryptense-E/Jackpot` retains a historical commit + path but no stored blob ID. `chainbits13/realfraction` is explicitly partial: the 2026-09-20 malicious branch and its recovered stage hashes are documented, but the exact repository commit SHA was not retained before the repository became unavailable on 2026-09-21. No commit is reconstructed by inference.
 
 ## Anchors
 

@@ -2,7 +2,7 @@
 
 IOC set for the **pyjama-investigation** project.
 
-Investigation start: **2026-09-12**
+Investigation start: **2026-09-11**
 
 This directory contains the canonical IOC sets and reporting records used by the project.
 

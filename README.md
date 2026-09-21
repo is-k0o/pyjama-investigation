@@ -2,12 +2,14 @@
 
 Defensive research notes, evidence and indicators from an investigation into **Contagious Interview**-style malicious GitHub repositories and related delivery infrastructure.
 
+Investigation start: **2026-09-11**
+
 The bounded corpus contains **158 captured repositories**:
 
 - 68 repositories from the main investigation tracker;
 - 90 repositories from a bounded fake-font reverse-hunt.
 
-This is a research corpus, not a claim that all 158 repositories were independently proven active compromise chains.
+This is a research corpus, not a claim that all 158 repositories were independently proven active compromise chains. The two bounded source lists are published under [`datasets/`](datasets/) so the 68 + 90 count can be audited.
 
 ## Safety
 
@@ -24,6 +26,7 @@ The investigation relied on static analysis, source review, passive threat intel
 
 - [`taxonomy.md`](taxonomy.md) — four-layer campaign model: trigger, local loader, mid-tier and final backend.
 - [`evidence/`](evidence/) — chain reconstruction, backend-family notes, representative samples, lineage and disclosure records.
+- [`datasets/`](datasets/) — the bounded **68-repository core corpus** and **90-repository fake-font reverse-hunt capture** used for the 158-repository count.
 - [`iocs/`](iocs/) — current, historical and candidate indicators, hashes, blockchain observables and bounded recheck results.
 
 ## Evidence language
