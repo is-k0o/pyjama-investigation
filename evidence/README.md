@@ -1,6 +1,6 @@
 # Evidence
 
-Private working evidence for the **pyjama-investigation** project.
+Evidence supporting the **pyjama-investigation** project.
 
 Investigation start: **2026-09-12**
 
@@ -52,6 +52,6 @@ Provider-specific abuse reporting -> not exhaustively performed
 
 See [disclosure-status-2026-09-21.md](disclosure-status-2026-09-21.md).
 
-## Next evidence work
+## Publication state
 
-The next phase is publication preparation: pin exact repository file / commit / blob / date anchors for the remaining representative local triggers/loaders, finish the targeted prior-art checks, and build the publication figures without weakening the evidence boundary.
+The remaining publication work is evidence pinning and maintenance of exact repository file / commit / blob / date anchors without weakening the evidence boundary.
