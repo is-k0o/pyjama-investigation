@@ -2,7 +2,7 @@
 
 Purpose: separate public prior art from defensible project contributions. **IOC freshness is not methodological novelty.**
 
-Labels: **KNOWN**, **EXTENDED**, **CORRELATED/LINKED BY US**, **APPARENTLY NEW** (provisional; absence from search is not proof of priority).
+Labels: **KNOWN**, **EXTENDED**, **CORRELATED/LINKED BY US**.
 
 | Claim | Classification | Prior art / source | Project delta / caveat |
 |---|---|---|---|
@@ -37,5 +37,3 @@ Labels: **KNOWN**, **EXTENDED**, **CORRELATED/LINKED BY US**, **APPARENTLY NEW**
 3. Nava repository-to-final-agent reconstruction as a current instance of known Cross-Chain TxDataHiding tradecraft.
 4. C2-808X cross-repository linkage/role mapping, not the port tuple itself.
 5. realfraction terminal-profile implementation as an independently reconstructed instance of a publicly documented trigger pattern.
-
-`APPARENTLY NEW` means only that no matching publication was found in the bounded audit for the specific claim carrying that label.
